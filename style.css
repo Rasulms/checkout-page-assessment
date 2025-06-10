@@ -186,6 +186,9 @@ td > select {
   font-family: poppins;
   font-weight: 400;
 }
+input[type="radio"] {
+            filter: hue-rotate(120deg); 
+        }
 
 th,
 td {
