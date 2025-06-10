@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     radio.addEventListener("change", function () {
       boxes.forEach((box, boxIndex) => {
         // If this radio matches the index.
-        console.log("product_price_card", product_price_card);
+        // console.log("product_price_card", product_price_card);
 
         if (index === boxIndex) {
           box.style.display = "block";
