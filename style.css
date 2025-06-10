@@ -1,0 +1,193 @@
+body {
+  margin: 0 !important;
+}
+
+#main-content-parent {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: darkgray;
+  row-gap: 10rem;
+}
+.main-content-card {
+  width: 22%;
+  /* max-width: 25%;
+    min-width: 22%; */
+  /* height: 59%; */
+  padding: 2.2rem 3rem;
+  background-color: white;
+}
+
+.main-content-heading {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #f77086; /* Pink color */
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-family: poppins, sans-serif;
+  margin-bottom: 17px;
+  /* border: 1px solid #000000; */
+}
+
+.main-content-heading::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #cecece; /* Line color */
+  margin-left: 7px; /* Space between text and line */
+  margin-right: 0px;
+}
+
+.main-content-heading::before {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #cecece; /* Line color */
+  margin-right: 7px; /* Space between text and line */
+  margin-left: 0px;
+}
+
+.product_price_card {
+  border: 2px solid #cecece;
+  /* height: 11vh; */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+#product_price_card_parent {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.right_side {
+  width: 50%;
+  display: flex;
+  /* border: 1px solid red; */
+  /* justify-content: center; */
+  column-gap: 13px;
+}
+.righ_side_content {
+  /* padding: 0px 15px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.unit_p1 {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: poppins, sans-serif;
+}
+.unit_p2 {
+  font-weight: 500;
+  font-size: 10px;
+  font-family: poppins, sans-serif;
+}
+.left_side {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.remove_margin_p {
+  margin: 0px;
+}
+.unit_p1 span {
+  background-color: #f77086; /* Pink color */
+  color: white;
+  padding: 2px 5px;
+  font-size: 11px;
+  font-weight: 300;
+  margin-left: 7px;
+}
+
+#product_price_card_id {
+  border: 2px solid #f77086;
+}
+
+.right_side_total {
+  width: 40%;
+  display: flex;
+  /* border: 1px solid red; */
+  /* justify-content: center; */
+  column-gap: 13px;
+}
+.left_side_total {
+  width: 45%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.product_price_total {
+  /* border: 2px solid #cecece; */
+  /* height: 11vh; */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.add_to_cart_button_parent {
+  width: 100%;
+  cursor: pointer;
+}
+.add_to_cart_button {
+  width: 100%;
+  background-color: #f77086;
+  padding: 8px 25px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: poppins, sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.plus-icon {
+  font-weight: 500;
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+.size_box_parent {
+  width: 100%;
+  display: none;
+}
+
+.size_box {
+  width: 60%;
+  margin-left: 3%;
+}
+#collapsable_box_1 {
+  /* Open by default */
+  display: block;
+  transition: 1s linear ease-in-out;
+}
+.font_weight {
+  font-weight: 500;
+  font-family: poppins, sans-serif;
+  font-size: 9px;
+  color: #4c4847;
+}
+
+td > select {
+  width: 95%;
+  border: 1px solid #bfbbba;
+  font-size: 12px;
+  padding: 3px 0px;
+  font-family: poppins;
+  font-weight: 400;
+}
+
+th,
+td {
+  padding: 3px;
+}
